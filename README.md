@@ -8,6 +8,8 @@ A comprehensive library management system built with Laravel and Docker. This pr
 
 - **Admin:** Create, update, and delete books, manage categories, and book copies.
 - **User:** Browse and borrow books, make reservations.
+- **API Collection:** docs/api/Postman_Collection.json 
+- **Project Documentation:** docs/Project_Documentation.md
 
 ## Installation
 
