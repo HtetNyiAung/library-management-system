@@ -43,9 +43,27 @@ A comprehensive library management system built with Laravel and Docker. This pr
     php artisan migrate
     ```
 
-7. Start the application:
+7. Install Laravel Passport:
+    ```bash
+    composer require laravel/passport
+    php artisan passport:install
+    ```
+
+8. Install Laravel Telescope:
+    ```bash
+    composer require laravel/telescope
+    php artisan telescope:install
+    php artisan migrate
+    ```
+
+9. Start the application:
     ```bash
     php artisan serve
+    ```
+
+10. Run tests (optional):
+    ```bash
+    php artisan test
     ```
 
 ## Usage
